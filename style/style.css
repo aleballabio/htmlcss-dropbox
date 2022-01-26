@@ -58,12 +58,15 @@ a.colored-blue {
 
 .click {
     display: inline-block;
-    line-height: ;
     vertical-align: middle;
 }
 
 .click.blue {
-    background-color: blue;
+    background-color: rgb(0, 97, 255);
+    padding: 4px 22px;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    vertical-align: middle;
     color: white;
 }
 
@@ -136,7 +139,15 @@ svg.icon {
     padding-right: 40px;
 }
 
+.pd-right-20 {
+    padding-right: 20px;
+}
+
 .pd-left-40 {
+    padding-left: 40px;
+}
+
+.pd-left-20 {
     padding-left: 40px;
 }
 
@@ -156,27 +167,38 @@ svg.icon {
     padding-bottom: 30px;
 }
 
+.float {
+    float: right;
+}
+
 /* Header */
 
 .fixed-bar {
     width: 100%;
     background-color: white;
-    vertical-align: middle;
     line-height: 3.5rem;
+    vertical-align: middle;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     position: fixed;
     z-index: 99;
 }
-.fixed-bar img {
+
+.bar-left {
+    float: left;
+}
+
+.bar-right {
+    float: right;
+}
+.logo-nav {
     display: inline-block;
     vertical-align: middle;
-    line-height: 3.5rem;
-    float: left;
 }
 
 .cont-linknav {
     display: inline-block;
     vertical-align: middle;
-    float: left;
 }
 
 .navigazione {
@@ -188,9 +210,10 @@ svg.icon {
 .link-navigazione {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 2em;
     font-weight: bold;
+    margin-right: 2.2em;
 }
 
-
-
+.link-navigazione.no-margin {
+    margin-right: 0px;
+}
