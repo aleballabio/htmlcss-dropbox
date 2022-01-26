@@ -8,11 +8,13 @@ html {
     font-family: 'Space Grotesk', sans-serif;
     scroll-behavior: smooth;
     font-size: 16px;
+    color: black;
 }
 /* Pre-format tags */
 
 h1 {
-    font-size: 3.0rem;
+    font-size: 4.5rem;
+    font-weight: bold;
 }
 
 h2 {
@@ -27,13 +29,24 @@ h4 {
     font-size: 1.5rem;
 }
 
+p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
 hr {
     width: 10%;
     color: lightgrey;
 }
 
+
+
 .centered {
     text-align: center;
+}
+
+.lefted {
+    text-align: left;
 }
 
 .clearfix::after {
@@ -127,7 +140,7 @@ svg.icon {
     float: left;
 }
 
-.pdd-left-240 {
+.pd-left-240 {
  padding-left: 240px;
 }
 
@@ -176,7 +189,7 @@ svg.icon {
 .fixed-bar {
     width: 100%;
     background-color: white;
-    line-height: 3.5rem;
+    line-height: 4.0rem;
     vertical-align: middle;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -216,4 +229,43 @@ svg.icon {
 
 .link-navigazione.no-margin {
     margin-right: 0px;
+}
+
+/* Contenitore Header */
+
+.cont-headext {
+    background-color: rgb(180, 208, 231);
+    position: relative;
+}
+
+.cont-header {
+    min-height: 840px;
+    position: relative;
+    z-index: 5;
+}
+
+.megatitle {
+    padding-top: 10rem;
+    display: inline-block;
+    margin-bottom: 3rem;
+}
+
+.cont-header p {
+    display: inline-block;
+    width: 40%;
+    padding-bottom: 1em;
+}
+
+.cont-header p:last-child {
+    padding-top: .6em;
+    font-size: 1rem;
+}
+
+.cont-immagine-header {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+}
+.cont-immagine-header img {
+    object-fit: contain;
 }
