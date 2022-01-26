@@ -130,13 +130,13 @@ svg.icon {
     margin: 0 auto;
 }
 
-.container-70 {
-    width: 70%;
-    float: right;
-}
-
 .container-30 {
     width: 30%;
+    float: left;
+}
+
+.container-70 {
+    width: 70%;
     float: left;
 }
 
@@ -235,7 +235,7 @@ svg.icon {
 
 .cont-headext {
     background-color: rgb(180, 208, 231);
-    position: relative;
+    margin-bottom: -1rem;
 }
 
 .cont-header {
@@ -250,9 +250,14 @@ svg.icon {
     margin-bottom: 3rem;
 }
 
+.container-header-float {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
 .cont-header p {
     display: inline-block;
-    width: 40%;
     padding-bottom: 1em;
 }
 
@@ -261,11 +266,19 @@ svg.icon {
     font-size: 1rem;
 }
 
-.cont-immagine-header {
-    display: inline-block;
-    width: 400px;
-    height: 500px;
+.container-header-float-left {
+    width: 35%;
+    float: left;
+    
 }
-.cont-immagine-header img {
+
+.container-header-float-right {
+    width: 65%;
+    padding-left: 2rem;
+    float: left;
+}
+
+.container-header-float-right img {
+    width: 100%;
     object-fit: contain;
 }
