@@ -452,6 +452,9 @@ div > h2 {
     padding-bottom: 1rem;
 }
 
+
+/* Contatti Dropbox */
+
 .container-contatti-image {
     width: 55%;
     float: left;
@@ -481,4 +484,35 @@ div > h2 {
 }
 
 
+/* Operazioni Dropbox */
 
+.container-cards {
+    width: 100%;
+    margin: 0 auto;
+    margin-left: -1rem;
+
+}
+
+.cards {
+    width: calc(100% / 3 - 2.1rem);
+    float: left;
+    margin-right: 1rem ;
+    margin-left: 1rem ;
+}
+
+.cards > img {
+    width: 100%;
+}
+
+.cards > h2 {
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.cards > p {  
+    font-size: 1rem;
+}
+
+#dropboxpaper {
+    text-decoration: underline;
+}
