@@ -119,6 +119,7 @@ i {
     padding: 0;
     padding-top: .2rem;
     padding-bottom: .4rem;
+    display: inline-block;
 }
 
 
@@ -374,17 +375,37 @@ main {
         color: rgb(140, 152, 162);
     }
 
+
+
     .content-column ul > li {
         padding-bottom: 1.3rem;
         font-weight: bold;
         font-size: .9rem;
+        vertical-align: middle;
+    }
+    
+    .content-column ul > li > i {
+        float:left;
+        vertical-align: middle;
+        line-height: .6rem;
+        padding-right: .2rem;
+    }
+
+    .content-column ul > li > span {
+        line-height: 1rem;
+        vertical-align: super;
     }
 
     .click.blue.provagratis {
         margin-top: 1rem;
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
+        width: 100%;
         margin-bottom: 1rem;
+        padding-left: 3rem;
+        padding-right: 2rem;
+    }
+
+    .fa-check {
+        color: rgb(0, 97, 255);
     }
 
 
