@@ -91,8 +91,11 @@ a.colored-blue {
 
 .click.grey {
     background-color: white;
-    color: grey;
-    border: solid grey;
+    color: black;
+    border: solid 1px black;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: .4rem 1rem;
 }
 
 .checkbox {
@@ -113,7 +116,7 @@ svg.icon {
 
 
 i {
-    font-size: 1rem;
+    font-size: .9rem;
     vertical-align: middle;
     margin-right: .1rem;
     padding: 0;
@@ -412,9 +415,70 @@ main {
     .fa-check {
         color: rgb(0, 97, 255);
     }
-    
+
 .extra {
     width: 100%;
     margin: 0;
 }
+
+.extra-column {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.extra-column div:first-child {
+    width: 100%;
+    position: relative;
+}
+
+.container-enterprise-title {
+    line-height: 3rem;
+}
+div > h2 {
+    vertical-align: middle;
+}
+
+.container-enterprise-title > span {
+    vertical-align: baseline;
+    float: right;
+}
+
+#click-enterprise  {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.extra-column > h3 {
+    padding-bottom: 1rem;
+}
+
+.container-contatti-image {
+    width: 55%;
+    float: left;
+}
+
+.container-contatti-image > img {
+    width: 100%;
+}
+
+.container-contatti-text {
+    width: 40%;
+    float: right;
+    padding-top: 3rem;
+    vertical-align: middle;
+}
+
+.container-contatti-text > h2 {
+    padding-bottom: 2rem;
+
+}
+
+.container-contatti-text > p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+
 
