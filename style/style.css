@@ -313,7 +313,7 @@ i {
 /* Main Section */
 
 main {
-    margin-top: 20rem;
+    margin-top: 15rem;
 }
 
 .fatturazione {
@@ -321,20 +321,29 @@ main {
     padding-left: .2em;
     vertical-align: middle;
 }
-
-.piano-column {
-    width: 30%;
-    height: 1000px;
-}
+ /* Tre colonne */
 
 .column-container {
-    width: 100%;
+    max-width: 100%;
     display: inline-block;
-    margin-left: 2rem;
-    margin-right: 2rem;
     margin-top: 3rem;
     vertical-align: middle;
+    margin-bottom: 2rem;
+}
 
+.piano-column {
+    width: calc((100% - 5rem) / 3);
+    float: left;
+    margin-right: 2.5rem;
+}
+
+.piano-column.third {
+    margin-right: 0px;
+    }
+
+.column-title {
+    width: 100%;
+    float: left;
 }
     .title-icon {
         width: 100%;
@@ -345,13 +354,10 @@ main {
         font-weight: bold;
         border: solid lightgrey;
         border-width: thin;
-        float: left;
-
     }
-
+    
     .content-column {
         border-style: solid;
-        height: calc(1000px - 2rem);
         border-color: lightgrey;
         border-width: thin;
         border-top: none;
@@ -360,6 +366,7 @@ main {
         padding-top: 2rem;
         padding-right: 2rem ;
         float: left;
+        padding-bottom: 7rem;
     }
 
     .content-column h1,h2,h3 {
@@ -374,8 +381,6 @@ main {
     .mese {
         color: rgb(140, 152, 162);
     }
-
-
 
     .content-column ul > li {
         padding-bottom: 1.3rem;
@@ -407,8 +412,9 @@ main {
     .fa-check {
         color: rgb(0, 97, 255);
     }
-
-
-
-
+    
+.extra {
+    width: 100%;
+    margin: 0;
+}
 
