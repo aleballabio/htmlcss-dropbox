@@ -65,8 +65,9 @@ a {
 }
 
 a.colored-blue {
-    color: rgb(31, 109, 235);
+    color: rgb(15, 86, 199);
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .click {
@@ -516,3 +517,94 @@ div > h2 {
 #dropboxpaper {
     text-decoration: underline;
 }
+
+/*  Blocco aziende section */
+
+.container-quadrati {
+    width: 100%;
+    min-width: 1600px;  
+    }
+
+.quadrati-immagine {
+    width: 33vw;
+    height: 33vw;
+    float:left;
+}
+
+.quadrato-viewport {
+    width: 33vw;
+    height: 33vw;
+    overflow: scroll;
+    max-width: 100%;
+    background-color: rgb(245, 245, 245) ;
+    float: left;
+}
+
+.box-immagini {
+    width: 16.5vw;
+    height: 16.5vw;
+    float: left;
+    position:relative;
+
+}
+
+.box-immagini > img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/* Box Viewport */
+
+.quadrato-viewport > div > img {
+    width: 200px;
+    margin-bottom: 2rem;
+}
+
+.quadrato-viewport > div > p {
+    padding-top: 80px;
+    font-size: 1rem;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+/* Background Immagini logo */
+
+.box-immagini.designit {
+    background-color: rgb(162, 211, 155);
+    border: solid 1rem rgb(208, 233, 205);
+}
+.box-immagini.b-arizona {
+    background-color: rgb(97, 8, 43);
+}
+
+.box-immagini.b-florida {
+    background-color: rgb(0, 147, 206);
+}
+
+.box-immagini.b-topps {
+    background-color: rgb(255, 28, 28);
+}
+
+.box-immagini.b-world {
+    background-color: rgb(225, 73, 94);
+}
+
+.box-immagini.b-hearst {
+    background-color: rgb(180, 208, 231);
+}
+
+.box-immagini.b-lonely {
+    background-color: rgb(13, 36, 129);
+}
+.box-immagini.b-clearc {
+    background-color: rgb(255, 216, 48);
+}
+
+
+
