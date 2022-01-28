@@ -33,10 +33,9 @@ p {
 
 hr {
     width:20%;
-    color: rgb(243, 243, 243);
+    color: rgba(243, 243, 243, 3);
     margin-top: 1em;
     margin-bottom: 1em;
-    opacity: .3;
 }
 
 
@@ -690,6 +689,8 @@ div > h2 {
     background-color: black;
 }
 
+/* Link Footer */
+
 .link-footer {
     width: 100%;
     display: inline-block;
@@ -719,6 +720,26 @@ div > h2 {
     color: white;
 }
 
+.container-footer hr {
+    width: 10%;
+    color: white;
+    opacity: .6;
+    margin-bottom: 2em;
+}
 
+/* Lingua */
+
+.lingua {
+    color: grey;
+    opacity: .9;
+}
+
+.lingua > span > i {
+    font-size: 1.1rem;
+}
+
+#icon-lingua-fot {
+    font-size: .8rem;
+}
 
 
