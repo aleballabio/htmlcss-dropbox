@@ -63,10 +63,18 @@ a {
     color: black;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 a.colored-blue {
     color: rgb(15, 86, 199);
     text-decoration: underline;
     font-weight: bold;
+}
+
+a.colored-blue:hover {
+    text-decoration: none;
 }
 
 .click {
@@ -75,13 +83,18 @@ a.colored-blue {
 }
 
 .click.blue {
-    background-color: rgb(0, 97, 255);
+    background-color: rgb(0, 97, 255,1);
     padding: 4px 22px;
     font-size: .8rem;
     line-height: 1.5rem;
     vertical-align: middle;
     color: white;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.click.blue:hover {
+    background-color: rgba(0, 97, 255, .7);
 }
 
 .click.white {
@@ -96,6 +109,7 @@ a.colored-blue {
     font-size: 1rem;
     font-weight: bolder;
     padding: .4rem 1rem;
+    text-decoration: none;
 }
 
 .click.grey.variable {
@@ -106,6 +120,11 @@ a.colored-blue {
     font-weight: bolder;
     padding: .4rem 6rem;
     float: right;
+
+}
+
+.click.grey:hover {
+    background-color: rgba(0, 0, 0,.2);
 }
 
 .checkbox {
@@ -190,6 +209,10 @@ i {
     padding-right: 240px;
 }
 
+.pd-top-40 {
+    padding-top: 240px;
+}
+
 .pd-top-80 {
     padding-top: 80px;
 }
@@ -242,6 +265,7 @@ i {
 
 .fixed-bar {
     width: 100%;
+    min-height: 65px;
     background-color: white;
     line-height: 4.0rem;
     vertical-align: middle;
@@ -279,6 +303,8 @@ i {
     display: inline-block;
     vertical-align: middle;
     font-weight: bold;
+    line-height: 3.8rem;
+    padding-bottom: .2rem;
     margin-right: 2.2em;
 }
 
@@ -287,18 +313,19 @@ i {
 }
 
 .link-navigazione:hover {
-    border-bottom: solid 1px black;
+    border-bottom: solid .2rem rgba(0, 0, 0, 8);
+    padding: 0;
 }
 
 /* Contenitore Header */
 
 .cont-headext {
     background-color: rgb(180, 208, 231);
-    padding-top: 10rem;
+    padding-top: 5rem;
 }
 
 .cont-header {
-    
+    padding-top: 5rem;
 }
 
 .container-header-float {
@@ -312,9 +339,14 @@ i {
     padding-bottom: 2em;
 }
 
+.annulla {
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
 .cont-header p:last-child {
-    padding-top: .6em;
-    font-size: 1rem;
+    padding-top: 1em;
+    font-size: .7rem;
 }
 
 .container-header-float-left {
@@ -336,7 +368,21 @@ i {
     
 }
 
+.cont-icon-down {
+    padding-top: 2rem;
+}
+
+#icon-down {
+    font-size: 3rem;
+    padding: 0;
+}
+
 /* Main Section */
+
+#piano-business {
+    margin-top: -7rem;
+    padding-top: 8rem;
+}
 
 main {
     margin-top: 15rem;
@@ -349,7 +395,7 @@ main {
 }
  /* Tre colonne */
 
-.column-container {
+ .column-container {
     max-width: 100%;
     display: inline-block;
     margin-top: 3rem;
@@ -371,7 +417,8 @@ main {
     width: 100%;
     float: left;
 }
-    .title-icon {
+
+.title-icon {
         width: 100%;
         line-height: 2rem;
         vertical-align: middle;
@@ -380,7 +427,7 @@ main {
         font-weight: bold;
         border: solid lightgrey;
         border-width: thin;
-    }
+}
     
     .content-column {
         border-style: solid;
@@ -667,7 +714,7 @@ div > h2 {
     vertical-align: middle;
     border-top: solid rgb(243, 243, 243) thin;
     border-bottom: solid rgb(243, 243, 243) thin;
-    display: inline-block;
+
     
 }
 
@@ -684,6 +731,7 @@ div > h2 {
     vertical-align: baseline;
     line-height: 5rem;
     padding: 0px;
+    padding-right: 1rem;
 }
 
 /* Footer */
@@ -727,7 +775,7 @@ div > h2 {
 .container-footer hr {
     width: 10%;
     color: white;
-    opacity: .6;
+    opacity: .7;
     margin-bottom: 2em;
 }
 
