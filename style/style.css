@@ -286,6 +286,10 @@ i {
     margin-right: 0px;
 }
 
+.link-navigazione:hover {
+    border-bottom: solid 1px black;
+}
+
 /* Contenitore Header */
 
 .cont-headext {
