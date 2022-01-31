@@ -334,11 +334,11 @@ i {
     text-align: left;
     padding-left: 1rem;
     z-index: 98;
-    display: block;    
+    visibility: hidden;
 }
 
 .menu:hover .dropdown-cont {
-    display: none;
+    visibility: visible;
 }
 
 
